@@ -1,0 +1,391 @@
+/* This style is for paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body, form, input, textarea {
+    font-family: Italic;
+}
+span {
+    display: block;
+}
+p {
+    line-height: 25px;
+    font-size: 25px;
+    font-style: italic;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: orange;
+    text-align: center;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+#home-header {
+    background: #fff url(../images/banner.jpg) no-repeat;
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo-container img {
+    width: 130px;
+    margin-left: -70px;
+}
+.col img {
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-color: black;
+}
+.col img:hover {
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-color: orange;
+}
+.nav-container {
+    float: right;
+}
+nav.header-navigation {
+    margin-top: 50px;
+    word-spacing: 40px;
+}
+nav.header-navigation a:hover {
+    color: white;
+}
+nav.header-navigation a {
+    font-size: 25px;
+    font-style: inherit;
+    text-decoration: none;
+    margin: 13px;
+    color: orange;
+}
+
+
+/* Banner Styles */
+.banner {
+    height: 40vh;
+    padding-top: 220px;
+    color: #fff;
+}
+.banner h1 {
+    font-size: 50px;
+    color: orange;
+}
+
+/* About Styles */
+section{
+    padding: 50px;
+}
+section.about-section {
+    background-color: #000;
+    background-size: cover;
+    height: 65vh;
+    text-align: right;
+}
+.about-me {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    color: orange;
+}
+.about-me p {
+    margin-bottom: 15px;
+}
+.my-bogart img:hover {
+    width: 400px;
+}
+.my-bogart img {
+    float: left;
+    margin-top: -352px;
+    width: 380px;
+    margin-left: 35px;
+    height: 60vh;
+    border-radius: 100%;
+}
+
+/* Skills Styles */
+section#skills .col i:hover {
+    color: white;
+}
+section#skills .col {
+    width: 20%;
+    padding: 25px;
+    font-size: 87px;
+    display: inline-block;
+    color: orange;
+}
+section#skills .col i {
+    color: #f1bf00;
+    font-size: 160px;
+}
+section#skills {
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 10vh;
+    text-align: center;
+}
+
+/* Contact Styles */
+section#contact {
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form-container {
+    text-align: center;
+    width: 95%;
+}
+form input, textarea {
+    width: 100%;
+    padding: 11px;
+    padding-left: 0;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    text-align: left;
+    color: orange;
+}
+input[type="text"]:focus-visible, textarea:focus-visible {
+    outline: none;
+}
+form label {
+    display: block;
+    text-align: left;
+    color: orange;
+}
+form {
+    width: 50%;
+    display: inline-block;
+}
+form h2 {
+    text-align: center;
+}
+.form-container h2 {
+    color: orange;
+}
+textarea#message {
+    border: 1px solid orange;
+    border-radius: 9px;
+}
+input[type="button"] {
+    border: none;
+    padding: 17px 29px;
+    width: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background: white;
+}
+
+/* Footer Styles */
+footer, a {
+    color: orange;
+}
+footer {
+    background: #1a1a1a;
+}
+section.footer-1 .col {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 17px;
+}
+section.footer-1 .col ul li img {
+    width: 100px;
+    margin-top: 10px;
+}
+section.footer-1 {
+    text-align: center;
+}
+section.footer-1 .col ul li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-1 form {
+    width: 100%;
+    margin-top: 24px;
+}
+.footer-1 input[type="button"] {
+    margin-top: 0;
+    font-size: 11px;
+    padding: 15px 21px;
+    letter-spacing: 3px;
+}
+.social-media-icon {
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.footer-1 input#email {
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+footer h3 {
+    line-height: 25px;
+    font-size: 25px;
+}
+.social-media-icon a:hover {
+    color: white;
+}
+span.copyright {
+    margin-top: 20px;
+}
+i.bx.bxl-facebook-circle {
+    color: orange;
+}
+i.bx.bxl-instagram {
+    color: orange;
+}
+i.bx.bxs-envelope {
+    color: orange;
+}
+i.bx.bxl-facebook-circle:hover {
+    color: white;
+}
+i.bx.bxl-instagram:hover {
+    color: white;
+}
+i.bx.bxs-envelope:hover {
+    color: white;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+      }
+
+/* Bootstrap */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+.carousel-inner img {
+    vertical-align: middle;
+    width: inherit;
+    height: 80vh;
+    margin-left: 0px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -95px;
+}
+.carousel-item {
+    height: 42rem;
+}
+a.nav-link.active {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 36px;
+    color: #a3d6ff;
+   
+}
